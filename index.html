@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Porfolio Project</title>
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css"
+        media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Quattrocento" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="top-nav">
-            <nav class="top-nav">
-                <ul>
-                    <li id="name-li">Brett Roos</li>
-                    <li id="projects-li">Projects</li>
-                    <li id="bio-li">Bio</li>
-                </ul>
-            </nav>
-        </div>
-        <hr>
-    
-    <div class="center-image-container">
-        <img src="http://via.placeholder.com/640x360" alt="this is placeholder text">
+    <div class="wrapper">
+        <header>
+
+        </header>
+        <section>
+            <div class="nav">
+                <div class="nav-wrap">
+                    <ul class="nav-list">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="content-wrap">
+                    <div id="define" class="flex-col">
+                        <p class="define">I am a<span class="bold"> Web Developer</span> I currently live in Chandler,
+                            Arizona. I am interested in technology, gaming, sports, and music. I'm also proud of my
+                            desire
+                            to <span class="bold">learn</span>, and my ability to use my resources to get things done.
+                            You
+                            can contact me or review my projects using the link below.</p>
+                        <div class="home-links padding-top">
+                            <a href="mailto:brettroos60@gmail.com"><button type="button" class=btn-dark>Email
+                                    Me</button></a>
+                            <button id="projects-button" type="button" class="btn-light">View Projects</button>
+                        </div>
+                    </div>
+                    <div id="about" class="flex-col">
+                        <!-- <p class="define">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc. Tellus in
+                            metus vulputate eu scelerisque felis imperdiet proin fermentum.</p> -->
+                        <p class="define">I only recently became interested in programming and software in general. I had started working for a software company just doing technical support. It was in this role that I was exposed to the intricacies of software, and how amazing it was to have a program that can help thousands of people. The idea that I can create something from nothing, and help thousands has drawn me to this line of work. 
+                            
+                        I am currently looking for contract work, or a postition full time as a full-stack engineer. You can use these links to get in touch with me:</p>
+                        <ul class="social">
+                            <li class="social-links" href="https://github.com/breadroos" target="_blank"></li>
+                            <li><a class="social-links" href="https://www.linkedin.com/in/brett-roos-b8b705166/"
+                                    target="_blank"></a></li>
+                            <li><a class="social-links" href="mailto:brettroos60@gmail.com"></a></li>
+                        </ul>
+                    </div>
+                    <div class="project-wrap">
+                        <div class="projects">
+                            <div id="project-1" class="project">
+                                Project 1: Quiz App
+
+                                This app was developed to be a general trivia quiz, and my first dive into using jquery, along with making a functional page for the first time. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Brett Roos 2019</p>
+        </footer>
     </div>
-    <hr>
-    <div class="bio-container">Hello! I’m Brett, I love games, biking, coffee and I’m working to become a full-stack engineer.</div>
-    <button id="email-me-button">Email me</button>
-    <button id="projects-button">Projects</button>
-</div>
+    <script src="index.js"></script>
 </body>
+
 </html>
